@@ -1,3 +1,6 @@
+// サンプル3: Promiseを返すfunctionを使う方法
+//    引数も戻り値も取れるが、コードがややこしい
+
 function timeout_function(msg) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
